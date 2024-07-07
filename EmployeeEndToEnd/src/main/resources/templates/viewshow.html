@@ -38,10 +38,7 @@
                             <td th:text="${employee.ename}"></td>
                             <td th:text="${employee.salary}"></td>
                             <td th:text="${employee.phoneNo}"></td>
-                            <td>
-                                <a th:href="@{update/{eid}(eid=${employee.id})}" class="btn btn-primary btn-sm">Update</a>
-                                <a th:href="@{delete/{eid}(eid=${employee.id})}" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
+                            
                         </tr>
                     </tbody>
                 </table>
